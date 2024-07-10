@@ -1,0 +1,109 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.logo-container {
+  width: 80px; /* Adjust according to your logo size */
+  height: auto;
+}
+
+.Nav-items ul {
+  list-style-type: none; /* Remove list item dots */
+  padding: 0;
+  margin: 0;
+}
+
+.Nav-items ul li {
+  display: inline;
+  font-size: 20px;
+  font-weight:200;
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.Nav-items ul li:last-child {
+  margin-right: 0; /* Remove margin from last item */
+}
+.body {
+  padding: 20px;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.Search {
+  padding:10px;
+}
+
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card {
+  margin: 7px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-right: 3px;
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.res-card:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+.res-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;/*Scale the image as large as possible while maintaining aspect ratio */
+  padding: 5px; /* Ensure the image fills the container vertically */
+  border-radius: 25px;
+}
+
+h3, h4 {
+  margin: 4px 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Set color for heading */
+}
+
+h4 {
+  font-size: 13px;
+  color: #666;
+  font-weight: 150px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card{
+  height: 320px;
+  margin: 7px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-right: 3px;
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
